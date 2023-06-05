@@ -1,0 +1,136 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"], input[type="date"] {
+  width: 800px;
+  height: 40px;
+}
+
+body {
+  padding-top: 60px;
+  padding-left: 250px;
+  margin: 0;
+  height: 1500px;
+  background-color: rgb(245, 244, 244) !important;
+}
+
+.navbar {
+  z-index: 100;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed !important;
+  height: 60px;
+  justify-content: flex-end !important;
+  background-color: #ffffff;
+  border-bottom: 1px solid #646464;
+}
+
+.title-container{
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #242222;
+  color:rgb(245, 244, 244);
+  margin-bottom: 20px;
+}
+
+.body-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 24px;
+}
+
+.title {
+  font-weight: 100;
+  font-size: 14px;
+  margin: 0;
+}
+
+.form1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.label {
+  width: 120px;
+  margin: 0;
+  text-align: right;
+  margin-right: 42px;
+}
+
+.btn-edit {
+  padding: 7px 12px;
+  margin-left: 60px;
+  border: none;
+  border-radius: 4px;
+  background-color: #33b249;
+  color: white;
+}
+
+
+.dropdown {
+  align-items: center !important;
+  display: flex;
+}
+
+.profile-name {
+  margin-left: 4px;
+  margin-right: 8px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #41474d;
+  color: #fff;
+  padding-top: 60px;
+  z-index: 200;
+}
+
+.admin-card {
+  background-color: #2e3238;
+  display: flex;
+  justify-content: center;
+  padding: 16px 10px;
+  align-items: center;
+  position: fixed;
+  width: 250px;
+  top: 60px;
+  left: 0;
+}
+
+.admin-avatar {
+  margin-right: 8px;
+}
+
+.admin-profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.name, .admin {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.admin {
+  font-weight: 100;
+}
